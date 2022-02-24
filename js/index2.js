@@ -134,9 +134,8 @@ taskInspectorForm.addEventListener('submit', (e) => {
    // capturar el div del inspector
 const tContInsp = document.getElementById('taskcontainerinsp');
    console.log("los datos del inspector, el conductor buscado es  : " + IdBUsInsp);
-   console.log("Id desde inspector"+ e.target.dataset.id)
+//    console.log("Id desde inspector"+ e.target.dataset.id)
    if (IdBUsInsp != ''){
-       console.log('imprime: A');
        buscarConductor();
    }else{
        console.log("Falla");
